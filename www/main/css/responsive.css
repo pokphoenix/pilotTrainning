@@ -1,0 +1,186 @@
+
+
+
+/* Android Nexus 10  */
+@media only screen and (min-width: 779px) and (max-width: 821px) {
+    html { font-size: 28px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .go-bg>img, .pause-bg { margin-top: -44px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 27%; }
+    #pp-go { position: absolute; top: 39%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -41%; }
+    .bonus-wrap { top: 44%; }
+}
+
+
+/* Android Nexus 7  */
+@media only screen and (min-width: 559px) and (max-width: 651px) {
+    html { font-size: 22px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .go-bg>img, .pause-bg { margin-top: -44px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 27%; }
+    #pp-go { position: absolute; top: 37%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -41%; }
+    .bonus-wrap { top: 44%; }
+}
+
+
+/* Android Nexus 4  */
+@media only screen and (min-width: 363px) and (max-width: 405px) {
+    html { font-size: 18px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .go-bg>img, .pause-bg { margin-top: -40px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 32%; }
+    #pp-go { position: absolute; top: 34%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -39%; }
+    .bonus-wrap { top: 40%; }
+}
+
+
+/* Android Nexus 5  */
+@media only screen and (min-width: 319px) and (max-width: 361px) {
+    html { font-size: 16px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .go-bg>img, .pause-bg { margin-top: 0px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 31%; }
+    #pp-go { position: absolute; top: 36%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -39%; }
+    .bonus-wrap { top: 41%; }
+}
+
+
+/* Android Nexus 4 4.2.2 API 17  768x1280 320dpi */
+@media only screen and ( -webkit-min-device-pixel-ratio: 2 ) and (min-width: 383px) and (max-width: 385px) {
+
+    html { font-size: 18px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .go-bg>img, .pause-bg { margin-top: -40px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 32%; }
+    #pp-go { position: absolute; top: 37%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -39%; }
+    .bonus-wrap { top: 41%; }
+
+}
+
+/* Android Nexus 5 -4.4.4 API 19 1080x1920 480dpi  */
+@media only screen and ( -webkit-min-device-pixel-ratio: 2 ) and (min-width: 319px) and (max-width: 361px) {
+    html { font-size: 16px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .go-bg>img, .pause-bg { margin-top: 0px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 31%; }
+    #pp-go { position: absolute; top: 36%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -39%; }
+    .bonus-wrap { top: 43%; }
+}
+
+
+
+
+/* iPhone 4 */
+@media only screen and (max-height: 481px) {
+    html { font-size: 14px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }    /* main-menu */
+    .bonus-wrap { top: 39%; }                            /* play */
+    .go-bg>img, .pause-bg { margin-top: -44px; }        /* game over , pause */
+    .pause .go-btn-wrap { bottom: 42%; }                 /* play button  in  pause */
+    .gameover-page .go-btn-wrap { bottom: 27%; }
+    #pp-go { position: absolute; top: 36%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -37%; }   /* question in play  */
+    .bonus-wrap { top: 40%; }       /* bonus in play */
+}
+
+/* iPhone 5 */
+@media only screen and (min-height: 568px) and (max-width: 320px) {
+    html { font-size: 16px; }
+
+    #newRecord { top: 13%; }
+    .q-wrap { margin-top: -40%; }
+    .bonus-wrap { top: 43%; }
+}
+
+/* iPhone 6 */
+@media only screen and (min-width: 374px) and (max-width: 375px)
+{
+    html { font-size: 18px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .bonus-wrap { top: 40%; }
+    .go-bg>img, .pause-bg { margin-top: 1px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 35%; }
+    #pp-go { position: absolute; top: 34%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -41%; }
+    .bonus-wrap { top: 44%; }
+}
+
+/* iPhone 6 Plus +*/
+@media only screen and (min-width: 413px) and (max-width: 480px)
+{
+    html { font-size: 18px; }
+    #pp-logo { width: 86%; margin: -20px 7% 10px 7%; }
+    .bonus-wrap { top: 43%; }
+    .go-bg>img, .pause-bg { margin-top: 0px; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 34%; }
+    #pp-go { position: absolute; top: 34%; left: 10%; z-index: 99; width: 80%; height: auto; }
+
+    #newRecord { top: 12%; }
+    .q-wrap { margin-top: -39%; }
+    .bonus-wrap { top: 46%; }
+}
+
+/* iPad */
+@media screen and (min-width: 767px) and (device-aspect-ratio: 3/4) {
+    html { font-size: 28px; }
+    #pp-logo { width: 72%; margin: -20px 13% 10px 14%; }
+    .bonus-wrap { top: 39%; }
+    .go-bg>img, .pause-bg { margin-top: -20%; }
+    .pause .go-btn-wrap { bottom: 42%; }
+    .gameover-page .go-btn-wrap { bottom: 32%; }
+    #pp-go { position: absolute; top: 34%; left: 10%; z-index: 99; width: 80%; height: auto; }
+    .q-wrap { margin-top: -40%; }
+
+    #newRecord { top: 15%; }
+    .q-wrap { margin-top: -30%; }
+    .bonus-wrap { top: 43%; }
+}
+
+
+/* iPad Pro */
+@media screen and (min-width: 1536px) {
+    html { font-size: 56px; }
+    #pp-logo { width: 72%; margin: -20px 13% 10px 14%; }
+    #newRecord { top: 3.25rem; }
+    .bonus-wrap { top: 39%; }
+    .go-bg>img, .pause-bg { margin-top: -20%; }
+    .pause .go-btn-wrap { bottom: 40%; }
+    .gameover-page .go-btn-wrap { bottom: 27%; }
+    #pp-go { position: absolute; top: 34%; left: 10%; z-index: 99; width: 80%; height: auto; }
+    .q-wrap { margin-top: -40%; }
+
+    #newRecord { top: 16%; }
+    .q-wrap { margin-top: -29%; }
+    .bonus-wrap { top: 45%; }
+
+}

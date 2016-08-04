@@ -1,0 +1,71 @@
+<ion-view cache-view="false" class="gameover-page">
+
+    <!--<ion-nav-buttons side="right">-->
+    <!--<button class="button button-positive button-clear no-animation"-->
+    <!--ng-click="next()">-->
+    <!--<i class="ion-volume-medium"></i>-->
+    <!--</button>-->
+    <!--</ion-nav-buttons>-->
+
+
+    <ion-content scroll="false" class="go-bg footer-bg">
+        <div class="go-bg">
+            <img src="img/go-bg.svg"/>
+        </div>
+
+        <div id="header">
+            <div id="score" class="trans-skew"></div>
+            <!--<div class="score-text share-text" ng-click="shareOnFacebook()">share</div>-->
+            <!--<div class="right-menu">-->
+                <!--<sound-buttons></sound-buttons>-->
+            <!--</div>-->
+        </div>
+
+        <!-- *** Real Score *** -->
+
+        <div class="score-wrap text-center">
+            <h3 >YOUR SCORE</h3>
+            <!--<h2>{{ currentScore +' / '+ cntQuestion }}</h2>-->
+            <h2>{{ currentScore +' / 20' }}</h2>
+        </div>
+
+        <!-- *** Test Score *** -->
+
+        <!--<div class="score-wrap text-center">-->
+            <!--<h3>NEW RECORD</h3>-->
+            <!--<h1>69</h1>-->
+            <!--<h4>best score : 99</h4>-->
+        <!--</div>-->
+
+        <!-- *** Pirate Potato *** -->
+
+        <div id="pp-go">
+            <div ng-include="'img/pp-game-over.svg'" ></div>
+            <!--<img ng-src="img/pp-game-over.gif" class="img-responsive" >-->
+            <!--<h2>1+2+3=1</h2>-->
+            <h2>{{ question }}</h2>
+        </div>
+
+        <!-- *** Buttons *** -->
+
+        <div class="go-btn-wrap">
+            <div class="go-center">
+                <a class="btn-round btn-replay" href="#/geomath/play" ng-click="gamePlay();">
+                    <i class="ion-ios-play"></i>
+                </a>
+                <a class="btn-round btn-home" href="#/geomath/menu" ng-click="gameMain();">
+                    <i class="ion-android-home"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!--<a class='button button-block button-positive' ng-click='showLeaderboard()'>Leader Board</a>-->
+
+
+    </ion-content>
+
+    <!--<footer-bar class="no-bg fix-border"></footer-bar>-->
+
+</ion-view>
+

@@ -1,0 +1,143 @@
+<ion-view cache-view="false" >
+
+    <ion-content scroll="false" class="play-page">
+
+        <div id="header">
+            <!--<div id="score" class="trans-skew"></div>-->
+            <!--<div class="score-text" >-->
+                <!--<i class="ion-android-star c-focus" ></i>{{ currentScore }}</div>-->
+            <!--<div class="right-menu">-->
+                <!--<sound-buttons ng-show="currentScore == 0 || state == 'pause'" ></sound-buttons>-->
+                <!--<div ng-show="currentScore > 0"  class="btn-round icon ion-pause" id="pause" ng-click="openPause()"></div>-->
+            <!--</div>-->
+
+            <div style="text-align: center;">
+                <div class="progress-wrapper">
+                    <div class="progress" >
+                        {{humanizeDurationTimer(timer,'s')}}
+                    </div>
+                    <div round-progress max="timeForTimer" radius="50" stroke="5" current="timer" clockwise="false" color="#ef473a" rounded="true" ></div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <!--<h3 class="text-center" ng-class="testClass" id="newRecord" animation="bounceIn" anim-end="fadeOutUpBig">NEW RECORD</h3>-->
+        <!--<h3 class="text-center" ng-class="testClass" id="newRecord">NEW RECORD</h3>-->
+
+        <div class="center" >
+
+            <style>
+                .progress-wrapper {
+                    position: relative;
+                    font-size: 21px;
+                    margin: 0 auto;
+                }
+                .progress {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 6rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    font-weight: 100;
+                }
+
+                .inputAnswer {
+                    position: absolute; top:37%;  left:8%; width: 84%;
+                    text-align: center;
+
+                }
+
+                #question{
+                    font-size: 2.5rem; letter-spacing: 4px;
+                }
+
+                #answer {
+                     font-family: 'antonio', '-apple-system', 'Helvetica Neue', 'Roboto', 'Segoe UI', 'sans-serif';
+                     font-weight: 700; color: #424242;
+                     font-size: 2rem; letter-spacing: 4px;
+
+                 }
+
+                .choices .row .col{
+                    padding: 1rem;
+                    text-align: center;
+                    border-bottom:2px solid #007aff;
+                    border-left:2px solid #007aff;
+                    font-size: 2rem;
+                    font-weight: 500;
+                }
+
+                .choices .row:first-child> .col{
+                    border-top:2px solid #007aff;
+                }
+
+
+                .choices .row .col:last-child{
+                    border-right:2px solid #007aff;
+                }
+
+            </style>
+
+
+
+            <!--<input type="hidden" ng-model="state" ng-change="stateChange(state)"/>-->
+
+            <div class="q-wrap">
+                <h1 class="text-center animated" ng-class="questionAnimation" id="question">
+                    {{ question }}
+                    <span>=</span>
+                    <span ng-show="state!='correct' && state!='wrong'">?</span>
+                    <span ng-show="state=='correct'" class="correct">{{ aid }}</span>
+                    <span ng-show="state=='wrong'" class="wrong">{{ aid }}</span>
+                </h1>
+                <div class="bonus-wrap">
+                    <i id="wrong" animation="tada" anim-end="fadeOut" class="wrong ion-close-circled"></i>
+                </div>
+            </div>
+        </div>
+        <div class="inputAnswer" id="answer"> {{inputAnswer}} </div>
+        <div class="choices">
+
+            <div class="row">
+                <div class="col col-33" ng-click="selectAnswer(7)" >7</div>
+                <div class="col col-33" ng-click="selectAnswer(8)" >8</div>
+                <div class="col col-33" ng-click="selectAnswer(9)" >9</div>
+            </div>
+            <div class="row">
+                <div class="col col-33" ng-click="selectAnswer(4)" >4</div>
+                <div class="col col-33" ng-click="selectAnswer(5)" >5</div>
+                <div class="col col-33" ng-click="selectAnswer(6)" >6</div>
+            </div>
+            <div class="row">
+                <div class="col col-33" ng-click="selectAnswer(1)">1</div>
+                <div class="col col-33" ng-click="selectAnswer(2)">2</div>
+                <div class="col col-33" ng-click="selectAnswer(3)">3</div>
+            </div>
+            <div class="row">
+                <div class="col col-33" ng-click="selectAnswer('x')"><</div>
+                <div class="col col-33" ng-click="selectAnswer(0)">0</div>
+                <div class="col col-33" ng-click="selectAnswer('-')">-</div>
+            </div>
+            <div class="row">
+                <div class="col" ng-click="submitAnswer()">Enter</div>
+            </div>
+
+            <!--<div class="graph" ng-click="selectAnswer(1)" ng-class="{'hint': answer==1 && semi.hint}"><p>1</p>-->
+                <!--<div class="action-bar" id="bar1"></div>-->
+            <!--</div>-->
+            <!--<div class="graph" ng-click="selectAnswer(2)" ng-class="{'hint': answer==2 && semi.hint}"><p>2</p>-->
+                <!--<div class="action-bar"></div>-->
+            <!--</div>-->
+            <!--<div class="graph" ng-click="selectAnswer(3)" ng-class="{'hint': answer==3 && semi.hint}"><p>3</p>-->
+                <!--<div class="action-bar"></div>-->
+            <!--</div>-->
+        </div>
+    </ion-content>
+
+
+</ion-view>

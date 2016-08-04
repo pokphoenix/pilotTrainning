@@ -1,0 +1,41 @@
+.drag-return drag-item,
+.drag-return .drag-item {
+  -webkit-transition: all ease-in-out 0.5s;
+          transition: all ease-in-out 0.5s;
+}
+drag-item,
+[drag-item],
+.drag-item {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: -webkit-grab;
+  cursor: grab;
+  z-index: 10;
+}
+drag-item:active,
+[drag-item]:active,
+.drag-item:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.drag-content {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+}
+.drag-active {
+  z-index: 20;
+}
+.clone {
+  opacity: 0;
+  z-index: 0;
+}
+.clone-active {
+  opacity: 1;
+  z-index: 9999;
+}

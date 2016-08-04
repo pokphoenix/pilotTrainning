@@ -1,0 +1,38 @@
+{
+  "name": "angular-drag-and-drop-directives",
+  "description": "angular directives that provide drag and drop behaviour with ability to specify callbacks for certain actions",
+  "main": "build/js/angular-drag-and-drop.js",
+  "authors": [
+    "Lane Olson"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "drag",
+    "drop"
+  ],
+  "homepage": "https://github.com/Lane/angular-drag-and-drop",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "examples",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*"
+  },
+  "version": "1.0.4",
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.4",
+    "commit": "8debae273d9e6cefa08f1bf99d7f4544d5dea95c"
+  },
+  "_source": "https://github.com/Lane/angular-drag-and-drop.git",
+  "_target": "^1.0.4",
+  "_originalSource": "angular-drag-and-drop-directives",
+  "_direct": true
+}

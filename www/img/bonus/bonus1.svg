@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 270.6 48.3" enable-background="new 0 0 270.6 48.3" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- Copyright &#xC2;&#xA9; 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1. -->
+<!-- Copyright: Copyright 2016 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Exo2-SemiBoldItalic" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="600"/>
+<glyph unicode="N" horiz-adv-x="712" d="M692,690l-122,0l-61,-452C504,202 501,167 500,130l-14,0C476,168 462,209 452,239l-140,411C303,675 291,690 265,690l-90,0C145,690 130,677 126,646l-91,-646l123,0l63,463C225,497 228,530 229,564l12,0C247,532 259,491 269,463l145,-423C423,15 435,0 461,0l91,0C582,0 596,13 600,44z"/>
+<glyph unicode="c" horiz-adv-x="494" d="M306,504C134,504 65,436 38,250C11,63 73,-12 248,-12C307,-12 374,-4 429,17l-8,81C367,90 304,88 270,88C174,88 148,109 165,243C181,377 222,403 324,403C357,403 410,402 461,401l17,74C430,496 358,504 306,504z"/>
+<glyph unicode="e" horiz-adv-x="548" d="M317,504C136,504 65,449 40,258C17,78 77,-12 255,-12C317,-12 405,-4 463,20l-8,79C396,92 323,87 271,87C204,87 163,103 161,186l155,13C439,207 499,242 513,341C526,439 489,504 317,504M394,352C387,299 362,284 308,280l-140,-13C186,382 215,407 302,408C373,408 399,407 394,352z"/>
+<glyph unicode="i" horiz-adv-x="262" d="M159,703C135,703 124,692 122,670l-8,-54C111,591 123,578 147,578l55,0C226,578 236,588 240,611l7,55C250,688 238,703 214,703M151,0l68,490l-120,0l-69,-490z"/>
+<glyph unicode="1" horiz-adv-x="412" d="M269,0l97,690l-125,0l-182,-70l4,-89l167,49C223,557 219,534 216,511l-72,-511z"/>
+<glyph unicode="+" horiz-adv-x="543" d="M490,255l13,90l-178,0l24,171l-92,0l-24,-171l-178,0l-13,-90l179,0l-24,-171l91,0l24,171z"/>
+</font>
+
+	<g id="XMLID_1864_">
+	<g id="XMLID_55_">
+		<polygon id="XMLID_57_" fill="#A76531" points="220.6,48.3 4,48.3 15.9,4 232.5,4 		"/>
+		<polygon id="XMLID_56_" fill="#A76531" points="223.2,17.6 270.6,26.4 223.2,35.5 		"/>
+	</g>
+</g>
+<g id="XMLID_1841_">
+	<polygon id="XMLID_1863_" fill="#FED800" points="216.6,44.3 0,44.3 11.9,0 228.5,0 	"/>
+	<polygon id="XMLID_1842_" fill="#FED800" points="219.2,13.6 266.6,22.4 219.2,31.5 	"/>
+</g>
+<g id="XMLID_1824_">
+	
+		<text id="XMLID_59_" transform="matrix(1 0 0 1 72.1773 33.2574)" fill="#A76531" font-family="'Exo2-SemiBoldItalic'" font-size="24.7982px">Nice</text>
+</g>
+<g id="XMLID_774_">
+	
+		<text id="XMLID_60_" transform="matrix(1 0 0 1 129.1896 34.4996)" fill="#EA7351" font-family="'Exo2-SemiBoldItalic'" font-size="32.0816px">+1</text>
+</g>
+</svg>

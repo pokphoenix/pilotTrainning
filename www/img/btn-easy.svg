@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255.2 52" enable-background="new 0 0 255.2 52" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- Copyright &#xC2;&#xA9; 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1. -->
+<!-- Copyright: Copyright 2016 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Exo2-BoldItalic" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="600"/>
+<glyph unicode="A" horiz-adv-x="647" d="M432,180l23,-180l152,0l-108,647C497,671 475,690 450,690l-144,0C281,690 260,677 251,653l-290,-653l159,0l74,180M416,301l-172,0l87,210C340,533 348,557 355,577l29,0C385,555 386,532 389,510z"/>
+<glyph unicode="E" horiz-adv-x="572" d="M564,570l19,112C492,692 375,693 265,693C169,693 112,641 100,557l-55,-394C32,63 82,-3 197,-3C294,-3 408,-3 496,7l4,113l-255,0C207,120 195,134 200,171l19,133l272,0l14,108l-271,0l14,104C253,557 268,570 306,570z"/>
+<glyph unicode="S" horiz-adv-x="578" d="M342,703C181,703 95,673 74,518C62,424 88,358 192,315l131,-53C366,246 379,236 373,189C364,129 337,118 246,118C216,118 158,120 31,123l-16,-109C114,-8 204,-13 252,-13C435,-13 504,25 524,180C537,283 514,342 405,385l-124,48C231,452 219,462 226,509C236,574 265,576 338,575C412,575 492,574 552,572l15,103C495,696 413,703 342,703z"/>
+<glyph unicode="Y" horiz-adv-x="605" d="M367,225l293,465l-164,0l-150,-254C330,408 316,372 310,345l-11,0C298,374 294,403 286,434l-78,256l-153,0l160,-457l-33,-233l154,0z"/>
+</font>
+
+	<g id="XMLID_3639_">
+	<path id="XMLID_19_" fill="#A76531" d="M246.6,38.1c-0.7,1-1.6,2-2.5,2.9c-0.9,0.9-1.9,1.8-2.9,2.5c-10.3-2.3-20.6-4.5-30.9-6.8
+		c11.6,1.1,23.3,1.3,35,0.5L246.6,38.1z"/>
+</g>
+<g id="XMLID_3603_">
+	<g id="XMLID_3617_">
+		<g id="XMLID_25_">
+			<path fill="#975A25" d="M231.2,52H28C14.7,52,4,41.3,4,28v0C4,14.7,14.7,4,28,4h203.2c13.3,0,24,10.7,24,24v0
+				C255.2,41.3,244.4,52,231.2,52z"/>
+		</g>
+		<g id="XMLID_22_">
+			<path id="btn-easy" fill="#FED800" d="M227.2,48H24C10.7,48,0,37.3,0,24v0C0,10.7,10.7,0,24,0l203.2,0c13.3,0,24,10.7,24,24v0
+				C251.2,37.3,240.4,48,227.2,48z"/>
+		</g>
+	</g>
+	<g id="XMLID_3611_">
+			<text id="XMLID_35_" transform="matrix(1 0 0 1 91.821 33.0638)" fill="#AD8B66" font-family="'Exo2-BoldItalic'" font-size="26.2831px">EASY</text>
+			<text id="XMLID_33_" transform="matrix(1 0 0 1 91.821 33.0638)" fill="#A76531" font-family="'Exo2-BoldItalic'" font-size="26.2831px">EASY</text>
+	</g>
+	<path id="XMLID_3610_" fill="none" stroke="#A76531" stroke-width="3.1189" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M66.2,20.9L66.2,20.9c0.8,2.5,3.3,4.4,5.9,4.5c0.9,0,1.9-0.2,2.7-0.7c1.9-1.3,2.2-4.3,0.9-6.2s-3.9-2.7-6.2-2.4
+		c1.9-2.1,1.8-5.7-0.2-7.7c-2.1-2-5.8-1.8-7.5,0.5s-0.8,6,1.8,7.2c-6.9,4-15.4,7.5-21.7,12.4c-2.3-2.2-3.5-2.5-6.6-2.7
+		c-2.6-0.1-5.9,1.5-5.5,4.1c0.3,2.5,3.5,3.3,5.9,3.5c-1,1.4-1.8,3.1-1.7,4.9s1.1,3.5,2.8,4.1c2.1,0.7,4.4-0.6,5.6-2.5
+		c1.1-1.7,0.7-4.3,1.8-5.8c1.3-1.8,4.1-2.8,6-3.8C55.6,27.3,61,24.2,66.2,20.9z"/>
+	<g id="XMLID_3607_">
+		<path id="XMLID_13_" fill="#A76531" d="M250.8,19.9c-9.3-1.4-18.5-3.8-27.2-7.2c8-0.4,16-0.8,24.1-1.2
+			C249.2,14,250.3,16.8,250.8,19.9z"/>
+	</g>
+	<g id="XMLID_3604_">
+		<path id="XMLID_11_" fill="#A76531" d="M27.3,14.2c-8.9,3.9-18.7,5-27.3,9.4c0-0.8,0.1-1.6,0.2-2.4C8.5,16.9,18.3,16.6,27.3,14.2z
+			"/>
+	</g>
+</g>
+</svg>

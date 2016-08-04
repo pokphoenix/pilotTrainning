@@ -1,0 +1,22 @@
+/* Main Menu */
+#btn-easy:active{fill:#ffe761}
+#btn-normal:active{fill:#65db89}
+#btn-hard:active{fill:#c54d4e}
+
+.svg-hide { display: none; animation: none; -webkit-animation: none; }
+
+/*#dialog {*/
+   /*display: block;*/
+/*}*/
+
+/*#dialog:target {*/
+    /*display: inline;*/
+/*}*/
+
+/*#dl-cry {*/
+    /*display: inline;*/
+/*}*/
+
+/*#dl-noob {*/
+    /*display: inline;*/
+/*}*/

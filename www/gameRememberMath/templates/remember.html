@@ -1,0 +1,93 @@
+<ion-view cache-view="false"  >
+
+    <ion-content scroll="false" padding="false" class="play-page"  >
+
+        <div class="text-list" >
+
+            <div  class="row" ng-repeat="item in storeText track by $index" ng-if="$index%5==0" style="padding: 0; margin-bottom: 0.3rem;">
+                <div class="col col-20 col-center square-column" ng-if="storeText.length > ($index )">{{storeText[$index]}}</div>
+                <div class="col col-20 col-center square-column" ng-if="storeText.length > ($index + 1)">{{storeText[$index+1]}}</div>
+                <div class="col col-20 col-center square-column" ng-if="storeText.length > ($index + 2)">{{storeText[$index+2]}}</div>
+                <div class="col col-20 col-center square-column" ng-if="storeText.length > ($index + 3)">{{storeText[$index+3]}}</div>
+                <div class="col col-20 col-center square-column" ng-if="storeText.length > ($index + 4)">{{storeText[$index+4]}}</div>
+            </div>
+
+        </div>
+
+
+
+        <div id="header">
+            <!--<div id="score" class="trans-skew"></div>-->
+            <!--<div class="score-text" >-->
+                <!--<i class="ion-android-star c-focus" ></i>{{ currentScore }}</div>-->
+            <div class="right-menu">
+
+            </div>
+
+            <div style="text-align: center;">
+                <div class="progress-wrapper">
+                    <div class="progress" >
+                        {{humanizeDurationTimer(timer,'s')}}
+                    </div>
+                    <div round-progress max="timeForTimer" radius="50" stroke="5" current="timer" clockwise="false" color="#ef473a" rounded="true" ></div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="center" >
+
+            <style>
+                .text-list{
+                    position: absolute; top:25%;  width: 90%; left:50%; margin-left: -47.5%;
+                }
+                .text-list .row:first-child .col:first-child {
+                    border-top-left-radius: 1.5rem;
+                }
+                .text-list .row:first-child .col:last-child {
+                    border-top-right-radius: 1.5rem;
+                }
+                .text-list .row:last-child .col:first-child {
+                    border-bottom-left-radius: 1.5rem;
+                }
+                .text-list .row:last-child .col:last-child {
+                    border-bottom-right-radius: 1.5rem;
+                }
+                .square-column {
+                    text-align: center;
+                    font-size: 1rem;
+                    padding:1rem 0;
+                    background: #FFF;
+                    margin: 0.1rem;
+                }
+                .progress-wrapper {
+                    position: relative;
+                    font-size: 21px;
+                    margin: 0 auto;
+                }
+                .progress {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 6rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    font-weight: 100;
+                }
+            </style>
+
+
+
+
+        </div>
+
+
+    </ion-content>
+
+
+</ion-view>
